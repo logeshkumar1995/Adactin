@@ -20,7 +20,7 @@ public class Adactin {
 		txtpass.sendKeys("lo@12345");
 		btnlogin.click();
 		Thread.sleep(3000);
-		
+		driver.quit();
 	}
 
 }
